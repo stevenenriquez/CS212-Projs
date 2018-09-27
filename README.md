@@ -11,7 +11,7 @@ Projects from a Web Programming course at NAU.
 
 **Project 1: Personal Site** - https://www.cefns.nau.edu/~se558/proj1/ <br>
 **Project 2: Sign Up Form** - https://www.cefns.nau.edu/~se558/proj2/ <br> 
-**Project 3: Color Select** - https://www.cefns.nau.edu/~se558/proj3/ <br>
+**Project 3: Color Select** - https://www.cefns.nau.edu/~se558/proj3/selectColor.html <br>
 **Project 4: Books** - https://www.cefns.nau.edu/~se558/proj4/
 
 ---
