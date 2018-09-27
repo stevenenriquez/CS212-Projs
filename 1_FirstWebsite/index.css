@@ -1,0 +1,102 @@
+#thebody {
+	background-image: url(images/stars.gif); 
+	background-size: cover;
+	background-attachment: center;
+	}
+
+#button, #button2 {
+    background-image: url('images/trippy.gif');
+	color: white;
+	font-size: 2.5em;
+	margin:auto;
+	display:block;
+	padding-top: 12px;
+	padding-bottom: 19px;
+	float: left;
+	}
+	
+#button2 {
+	float: right
+	}
+
+#img1 {
+	width:auto;
+	height:auto;
+	}
+
+#img2 {
+	width:500px;
+	height:386px;
+	}
+
+#happy, #sad {
+	color: white;
+	font-size: 1.5em;
+	}
+
+body, button {
+	cursor: url('cursors/lightsaber.cur'), auto;
+	}
+	
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 550;
+	font-family: Courier;
+	padding-bottom: 5px;
+	border-top: 3px solid #336699;
+	border-bottom: 3px solid #336699;
+	}
+
+li, h2, p {
+	color: white;
+	text-align: center;	
+	font-size: 1.5em;
+	font-weight: 550;
+	font-family: Courier;
+	list-style-type: circle;
+	line-height: 2em;
+	}
+	
+h3 {
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 550;
+	font-family: Courier;
+	}
+
+a:link, a:visited {
+	
+	background-color: #001a4d;
+	color: white;
+	text-align: center;
+	font-weight: 550;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-family: Courier;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	}
+
+a:hover, a:active {
+    background-color: #001233;
+	border-bottom: solid 2px white;
+	}
+	
+li:nth-of-type(2n) {
+	color: lightgreen;
+	}
+li:nth-of-type(2n-1) {
+	color: cyan;
+	}
+
+p::first-letter {
+	font-size: 1.5em;
+	}
+
+
+

@@ -1,0 +1,123 @@
+<!-- Steven Enriquez - FirstWebsite - Project 1 - index.html -->
+
+<!DOCTYPE>
+
+<html>
+
+	<head>
+	
+		<title> About Me </title>
+		
+		<link rel="stylesheet" type="text/css" href="index.css">
+		
+	</head>
+	
+	<body id="thebody">
+		
+		<button id="button" onclick="myFunction()"> DONT CLICK ME </button>
+		<button id="button2" onclick="Remove()"> CLICK TO UNDO </button>
+		
+		<h1 class="head"> About Steven Enriquez </h1>
+		
+		<p> 
+			Ciao, mi chiamo Steven Enriquez. <br>
+			I am a guy that likes to make things do stuff. <br>
+		</p>
+		
+		<h3 class="head"> CLICK TO VIEW STEVENS LOCATION: </h3>
+		<h2>
+			<a href="https://www.google.com/maps/@35.1861465,-111.652687,5574a,35y,359.06h,0.29t/data=!3m1!1e3" target="_blank">
+			Flagstaff, Arizona, United States, Earth, Milky Way, Virgo Cluster, Laniakea Supercluster </a><br><br>
+		</h2>
+		
+		<h1 class="head"> Spring '18 Classes </h1>
+		<ul>
+			<li> CS 200 - Computer Organization & Architecture </li>
+			<li> CS 212 - Web Programming </li>
+			<li> CS 249 - Data Structures & Algorithms </li>
+			<li> MAT 226 - Discrete Mathematics </li>
+			<li> MAT 316 - Linear Algebra </li>
+		</ul>
+
+		<h1 class="head"> My Favorite Movies </h1>
+		<h2><a href="http://www.imdb.com/title/tt0133093/" target="_blank"> The Matrix (1998) </a></h2>
+		<h2><a href="http://www.imdb.com/title/tt0137523/?ref_=fn_al_tt_1" target="_blank"> Fight Club (1998) </a></h2>
+		<h2><a href="http://www.imdb.com/title/tt1375666/?ref_=nv_sr_1" target="_blank"> Inception (2010) </a></h2>
+		<h2><a href="http://www.imdb.com/title/tt0816692/?ref_=nv_sr_1" target="_blank"> Interstellar (2014) </a></h2>
+
+		<h1 class="head"> My Moods </h1>
+		<center>
+		<table>
+			<tr>
+				<td id="happy"> Happy: </td>
+				<td id="sad"> Sad: </td>
+			</tr>
+			<tr>
+				<td> <img src="images/hermit.gif" alt="Happy" id="img1"> </td>
+				<td> <img src="images/sadbaby.gif" alt="Sad" id="img2"/> </td>
+			</tr>
+		</table>
+		</center>
+		
+		<br><br>
+		
+		<h1 class="head"> Friends </h1>
+		<h2> 
+			Raymond - Better than everyone at everything and has the best beard
+			in the galaxy. <br>
+			Asher - He is all about the gains and doesn't understand that PCs
+			are better than Macs. <br><br>
+		</h2>
+		
+		<center> <a href="#Top"> Top of Page </a> </center> <br>
+
+		<script>
+			
+			function myFunction() {
+
+				var heads = document.getElementsByClassName("head");
+			
+				for(var index = 0; index < heads.length; index++) {
+					heads[index].style.background = "url(images/trippy.gif)";
+					heads[index].style.backgroundSize = "cover";
+				}
+			
+				document.getElementById("thebody").style.background = "url(images/space.gif)";
+				document.getElementById("thebody").style.backgroundSize = "cover";
+				document.getElementById("thebody").style.cursor = "url(cursors/sushi.cur), auto";
+				
+				document.getElementById("button").style.background = "none";
+				document.getElementById("button").style.cursor = "url(cursors/sushi.cur), auto";
+				
+				document.getElementById("button2").style.background = "none";
+				document.getElementById("button2").style.cursor = "url(cursors/sushi.cur), auto";
+				
+				document.getElementById("button3").style.cursor = "url(cursors/sushi.cur), auto";
+			}
+			
+			function Remove() {
+			
+				var heads = document.getElementsByClassName("head");
+			
+				for(var index = 0; index < heads.length; index++) {
+					heads[index].style.background = "none";
+				}
+			
+				document.getElementById("thebody").style.background = "url(images/stars.gif)";
+				document.getElementById("thebody").style.backgroundSize = "cover";
+				document.getElementById("thebody").style.cursor = "url(cursors/lightsaber.cur), auto";
+				
+				document.getElementById("button").style.background = "url(images/trippy.gif)";
+				document.getElementById("button").style.cursor = "url(cursors/lightsaber.cur), auto";
+				
+				document.getElementById("button2").style.background = "url(images/trippy.gif)";
+				document.getElementById("button2").style.cursor = "url(cursors/lightsaber.cur), auto";
+				
+				document.getElementById("button3").style.cursor = "url(cursors/lightsaber.cur), auto";
+			}
+			
+		</script>
+	
+	</body>
+
+</html>
